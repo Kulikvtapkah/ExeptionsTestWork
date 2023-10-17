@@ -50,7 +50,7 @@ public class ExeprionsTestWork {
         }
         personData.closeDataReader();
 
-        String path = String.format("%s.txt", parcedData.getName().get(0));
+        String path = String.format("ExeptionsTestWork/%s.txt", parcedData.getName().get(0));
         String dataToSave = String.format("<%s><%s><%s><%s><%d><%c>\n", parcedData.geLastName(),
                 parcedData.getFirstName(), parcedData.getPatronimic(), parcedData.getDateOfBirth(),
                 parcedData.getPhoneNumber(), parcedData.getGender());
